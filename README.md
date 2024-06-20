@@ -14,7 +14,7 @@ class BankAccount:
         else:
             print("Insufficient funds")
 
-    def get_balance(self):
+   def balance(self):
         return self.__balance
 
     def transfer(self, amount, other_account):
